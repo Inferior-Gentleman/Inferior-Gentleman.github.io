@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>First Blog</title>
-    <url>/2020/09/04/First-Blog/</url>
-    <content><![CDATA[<h1 id="初次使用hexo搭建博客，开心，日后还要再深入"><a href="#初次使用hexo搭建博客，开心，日后还要再深入" class="headerlink" title="初次使用hexo搭建博客，开心，日后还要再深入"></a>初次使用hexo搭建博客，开心，日后还要再深入</h1>]]></content>
+    <title>HIN based Recommendation System</title>
+    <url>/2020/09/05/HIN-based-Recommendation-System/</url>
+    <content><![CDATA[<h2 id="HIN简介"><a href="#HIN简介" class="headerlink" title="HIN简介"></a>HIN简介</h2><ul>
+<li>Metapath</li>
+<li>Network schema</li>
+</ul>
+<h2 id="基于HIN的推荐方法"><a href="#基于HIN的推荐方法" class="headerlink" title="基于HIN的推荐方法"></a>基于HIN的推荐方法</h2><ul>
+<li>在同构图上进行拓展</li>
+<li>基于metapath</li>
+<li>引入neighbor</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Graph</category>
+        <category>Recommendation System</category>
+      </categories>
       <tags>
-        <tag>newbie</tag>
+        <tag>HIN</tag>
+        <tag>推荐系统</tag>
       </tags>
   </entry>
   <entry>
@@ -17,6 +31,14 @@
       </categories>
       <tags>
         <tag>新手</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>First Blog</title>
+    <url>/2020/09/04/First-Blog/</url>
+    <content><![CDATA[<h1 id="初次使用hexo搭建博客，开心，日后还要再深入"><a href="#初次使用hexo搭建博客，开心，日后还要再深入" class="headerlink" title="初次使用hexo搭建博客，开心，日后还要再深入"></a>初次使用hexo搭建博客，开心，日后还要再深入</h1>]]></content>
+      <tags>
+        <tag>newbie</tag>
       </tags>
   </entry>
   <entry>
