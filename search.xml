@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>论文精读——Compositional Embeddings Using Complementary Partitions for Memory-Efficient Recommendation Systems</title>
-    <url>/2020/09/05/Compositional-embedding/</url>
-    <content><![CDATA[<h2 id="Compositional-Embeddings-Using-Complementary-Partitions-for-Memory-Efficient-Recommendation-Systems"><a href="#Compositional-Embeddings-Using-Complementary-Partitions-for-Memory-Efficient-Recommendation-Systems" class="headerlink" title="Compositional Embeddings Using Complementary Partitions for Memory-Efficient Recommendation Systems"></a>Compositional Embeddings Using Complementary Partitions for Memory-Efficient Recommendation Systems</h2>]]></content>
-      <categories>
-        <category>推荐系统</category>
-        <category>embedding</category>
-      </categories>
-      <tags>
-        <tag>embedding</tag>
-        <tag>recommendation system</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>First Blog</title>
-    <url>/2020/09/04/First-Blog/</url>
-    <content><![CDATA[<h1 id="初次使用hexo搭建博客，开心，日后还要再深入"><a href="#初次使用hexo搭建博客，开心，日后还要再深入" class="headerlink" title="初次使用hexo搭建博客，开心，日后还要再深入"></a>初次使用hexo搭建博客，开心，日后还要再深入</h1>]]></content>
-      <tags>
-        <tag>newbie</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>HIN based Recommendation System</title>
     <url>/2020/09/05/HIN-based-Recommendation-System/</url>
     <content><![CDATA[<h2 id="HIN简介"><a href="#HIN简介" class="headerlink" title="HIN简介"></a>HIN简介</h2><ul>
@@ -44,30 +23,54 @@
       </tags>
   </entry>
   <entry>
-    <title>可解释性简介</title>
-    <url>/2020/09/05/graph/</url>
-    <content><![CDATA[<h2 id="可解释性概念简介"><a href="#可解释性概念简介" class="headerlink" title="可解释性概念简介"></a>可解释性概念简介</h2><h2 id="关于图神经网络的可解释性"><a href="#关于图神经网络的可解释性" class="headerlink" title="关于图神经网络的可解释性"></a>关于图神经网络的可解释性</h2><ul>
-<li>XGNN: Towards Model-Level Explanations of Graph Neural Networks</li>
-</ul>
-]]></content>
+    <title>论文精读——Compositional Embeddings Using Complementary Partitions for Memory-Efficient Recommendation Systems</title>
+    <url>/2020/09/05/Compositional-embedding/</url>
+    <content><![CDATA[<h2 id="Compositional-Embeddings-Using-Complementary-Partitions-for-Memory-Efficient-Recommendation-Systems"><a href="#Compositional-Embeddings-Using-Complementary-Partitions-for-Memory-Efficient-Recommendation-Systems" class="headerlink" title="Compositional Embeddings Using Complementary Partitions for Memory-Efficient Recommendation Systems"></a>Compositional Embeddings Using Complementary Partitions for Memory-Efficient Recommendation Systems</h2>]]></content>
       <categories>
-        <category>可解释性</category>
-        <category>图神经网络</category>
+        <category>推荐系统</category>
+        <category>embedding</category>
       </categories>
       <tags>
-        <tag>Explanation</tag>
-        <tag>GNN</tag>
+        <tag>embedding</tag>
+        <tag>recommendation system</tag>
       </tags>
   </entry>
   <entry>
-    <title>first</title>
-    <url>/2020/09/04/first/</url>
-    <content><![CDATA[<h1 id="还没行吗"><a href="#还没行吗" class="headerlink" title="还没行吗"></a>还没行吗</h1>]]></content>
+    <title>First Blog</title>
+    <url>/2020/09/04/First-Blog/</url>
+    <content><![CDATA[<h1 id="初次使用hexo搭建博客，开心，日后还要再深入"><a href="#初次使用hexo搭建博客，开心，日后还要再深入" class="headerlink" title="初次使用hexo搭建博客，开心，日后还要再深入"></a>初次使用hexo搭建博客，开心，日后还要再深入</h1>]]></content>
+      <tags>
+        <tag>newbie</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>冷启动(cold start)问题简介及模型</title>
+    <url>/2020/09/05/cold-start/</url>
+    <content><![CDATA[<h2 id="冷启动-cold-start-问题简介"><a href="#冷启动-cold-start-问题简介" class="headerlink" title="冷启动(cold start)问题简介"></a>冷启动(cold start)问题简介</h2><h2 id="模型简介"><a href="#模型简介" class="headerlink" title="模型简介"></a>模型简介</h2><ul>
+<li>MELU</li>
+<li>MAMO</li>
+</ul>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2>]]></content>
       <categories>
-        <category>newbie,推荐系统</category>
+        <category>推荐系统</category>
+        <category>冷启动</category>
       </categories>
       <tags>
-        <tag>新手</tag>
+        <tag>recommendation system</tag>
+        <tag>cold start</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Embedding在推荐系统中的应用</title>
+    <url>/2020/09/22/embedding/</url>
+    <content><![CDATA[<h1 id="nlp中的embedding：word2vec"><a href="#nlp中的embedding：word2vec" class="headerlink" title="nlp中的embedding：word2vec"></a>nlp中的embedding：word2vec</h1><h1 id="Rs中的embedding-：从Item2vec到阿里的embedding"><a href="#Rs中的embedding-：从Item2vec到阿里的embedding" class="headerlink" title="Rs中的embedding ：从Item2vec到阿里的embedding"></a>Rs中的embedding ：从Item2vec到阿里的embedding</h1>]]></content>
+      <categories>
+        <category>推荐系统</category>
+        <category>Embedding</category>
+      </categories>
+      <tags>
+        <tag>Embedding</tag>
+        <tag>Recommendation System</tag>
       </tags>
   </entry>
   <entry>
@@ -87,20 +90,27 @@
       </tags>
   </entry>
   <entry>
-    <title>冷启动(cold start)问题简介及模型</title>
-    <url>/2020/09/05/cold-start/</url>
-    <content><![CDATA[<h2 id="冷启动-cold-start-问题简介"><a href="#冷启动-cold-start-问题简介" class="headerlink" title="冷启动(cold start)问题简介"></a>冷启动(cold start)问题简介</h2><h2 id="模型简介"><a href="#模型简介" class="headerlink" title="模型简介"></a>模型简介</h2><ul>
-<li>MELU</li>
-<li>MAMO</li>
-</ul>
-<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2>]]></content>
+    <title>event role</title>
+    <url>/2020/09/21/event-role/</url>
+    <content><![CDATA[<h2 id="事件抽取简介及doc-level-论文精读"><a href="#事件抽取简介及doc-level-论文精读" class="headerlink" title="事件抽取简介及doc-level 论文精读"></a>事件抽取简介及doc-level 论文精读</h2>]]></content>
       <categories>
-        <category>推荐系统</category>
-        <category>冷启动</category>
+        <category>nlp</category>
+        <category>事件抽取</category>
       </categories>
       <tags>
-        <tag>recommendation system</tag>
-        <tag>cold start</tag>
+        <tag>event extraction</tag>
+        <tag>crf</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>first</title>
+    <url>/2020/09/04/first/</url>
+    <content><![CDATA[<h1 id="还没行吗"><a href="#还没行吗" class="headerlink" title="还没行吗"></a>还没行吗</h1>]]></content>
+      <categories>
+        <category>newbie,推荐系统</category>
+      </categories>
+      <tags>
+        <tag>新手</tag>
       </tags>
   </entry>
   <entry>
@@ -122,6 +132,69 @@
 ]]></content>
   </entry>
   <entry>
+    <title>可解释性简介</title>
+    <url>/2020/09/05/graph/</url>
+    <content><![CDATA[<h2 id="可解释性概念简介"><a href="#可解释性概念简介" class="headerlink" title="可解释性概念简介"></a>可解释性概念简介</h2><h2 id="关于图神经网络的可解释性"><a href="#关于图神经网络的可解释性" class="headerlink" title="关于图神经网络的可解释性"></a>关于图神经网络的可解释性</h2><ul>
+<li>XGNN: Towards Model-Level Explanations of Graph Neural Networks</li>
+</ul>
+]]></content>
+      <categories>
+        <category>可解释性</category>
+        <category>图神经网络</category>
+      </categories>
+      <tags>
+        <tag>Explanation</tag>
+        <tag>GNN</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Helltaker 通关感想</title>
+    <url>/2020/09/20/helltaker/</url>
+    <content><![CDATA[<p>这两天在网上经常看到Helltaker，又听说免费，嘿嘿嘿，下载之。<br>类似galgame，故事背景大概是主角有一天梦到了自己要在地狱开后宫，结果不知怎么真的来到了地狱，开启你的把妹之旅吧！<br>前七关都是推箱子，后面三关考验你的手速和反应，过关后会有一个恶魔加入你的后宫：每关小姐姐确实很漂亮，可惜对白太少，只能看个乐子。<br>第十关非常难，非常难，非常难，至今没过，这一关总是让我怀疑我的手指头和键盘哪一个先坏掉，后来发现是我的脑袋。<br>最终全部通关后(作者贴心的给了跳关选项)，主角带领妹子们冲出地狱，重返人间，过上了短暂又烧心的生活，这时点开ESC会发现一段方向代码，站在五角星法阵中央照着操作会开启彩蛋。</p>
+]]></content>
+      <categories>
+        <category>游戏</category>
+      </categories>
+      <tags>
+        <tag>steam</tag>
+        <tag>Helltaker</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Memory Network在推荐系统中的应用</title>
+    <url>/2020/09/30/memory/</url>
+    <content><![CDATA[<h2 id="Memory-Network-在推荐系统中的应用"><a href="#Memory-Network-在推荐系统中的应用" class="headerlink" title="Memory Network 在推荐系统中的应用"></a>Memory Network 在推荐系统中的应用</h2><pre><code>    Facebook在2015年最早在paper 《Memory Network》和《End to End Memory Network》中提出了这个概念，目的是为了解决序列中的长距离依赖问题，具体模型及应用在此不多介绍，本文只引入与推荐系统相关的部分。</code></pre>
+<p>​        设想中目标：Memory Network在RS中往往是作为“数据库”来使用，特别是在序列化RS中，通过自定义read和write来对用户随时间不断变化的兴趣建模。</p>
+<p>​        实际上：关于memory network的相关推荐论文并不多，找了三篇简要概括如下：</p>
+<p>​                在论文一号 <a href="#refer1"><sup> 1 </sup></a>以及论文二号<a href="#refer2"><sup>2</sup></a> 中，memory work仅起到“只读”效果，通过将read定义为attention操作来捕捉用户兴趣。</p>
+<p>​                论文三号<a href="#refer3"><sup>3</sup></a>中，之所以引入memory，是为了</p>
+<ul>
+<li><p>解决序列间长距离依赖关系</p>
+</li>
+<li><p>使用GRU等序列化模型得到的session表示会整合session中与target item无关的item信息</p>
+<p>  ​        很明显第一点提示我们要使用attention，第二点提示我们只用attention( attention 与RNN结合并不能解决长距离依赖——    Transformer )，于是作者分别在item level和feature level定义了read和write操作，read与上相同，write则采用FIFO，确保memory network仅保留最新的k个item。</p>
+<p>  ​        与设想目标很接近，充分利用了memory的优点：相较于attention，我们可以通过write对信息进行改写，但在write操作上还有区别，个人觉得memory中不应保留item信息而应该是用户偏好。</p>
+</li>
+</ul>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><div id="refer1"> </div>
+
+<p>[1]  Collaborative Memory Network for Recommendation Systems, SIGIR 2018</p>
+<div id="refer2"> </div>
+
+<p>[2]A Collaborative Session-based Recommendation Approach with Parallel Memory Modules, SIGIR 2019</p>
+<div id="refer3"> </div>
+
+<p>[3]Sequential Recommendation with User Memory Networks, WSDM 2018</p>
+]]></content>
+      <categories>
+        <category>推荐系统</category>
+      </categories>
+      <tags>
+        <tag>recommendation systam</tag>
+        <tag>memory network</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>如何杀死nohup 运行的进程</title>
     <url>/2020/09/09/nohup/</url>
     <content><![CDATA[<p>在服务器上跑程序的时候为了后台运行，使用了nohup命令</p>
@@ -134,19 +207,6 @@
       <tags>
         <tag>linux</tag>
         <tag>nohup</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>基于FM的Recommendation</title>
-    <url>/2020/09/05/%E5%9F%BA%E4%BA%8EFM%E7%9A%84Recommendation/</url>
-    <content><![CDATA[<h2 id="FM-Factorization-Machine-分解机-简介"><a href="#FM-Factorization-Machine-分解机-简介" class="headerlink" title="FM(Factorization Machine)分解机 简介"></a>FM(Factorization Machine)分解机 简介</h2><h2 id="与深度学习相结合"><a href="#与深度学习相结合" class="headerlink" title="与深度学习相结合"></a>与深度学习相结合</h2><ul>
-<li>DeepFM</li>
-<li>AutoFM</li>
-<li>GBDT</li>
-</ul>
-]]></content>
-      <tags>
-        <tag>-推荐系统 -FM</tag>
       </tags>
   </entry>
   <entry>
@@ -167,24 +227,24 @@
       </tags>
   </entry>
   <entry>
+    <title>基于FM的Recommendation</title>
+    <url>/2020/09/05/%E5%9F%BA%E4%BA%8EFM%E7%9A%84Recommendation/</url>
+    <content><![CDATA[<h2 id="FM-Factorization-Machine-分解机-简介"><a href="#FM-Factorization-Machine-分解机-简介" class="headerlink" title="FM(Factorization Machine)分解机 简介"></a>FM(Factorization Machine)分解机 简介</h2><h2 id="与深度学习相结合"><a href="#与深度学习相结合" class="headerlink" title="与深度学习相结合"></a>与深度学习相结合</h2><ul>
+<li>DeepFM</li>
+<li>AutoFM</li>
+<li>GBDT</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>-推荐系统 -FM</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>论文精读——CAST: A Correlation-based Adaptive Spectral Clustering Algorithm on Multi-scale Data</title>
     <url>/2020/09/05/%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB%E2%80%94%E2%80%94ST-A-Correlation-based-Adaptive-Spectral-Clustering-Algorithm-on-Multi-scale-Data/</url>
     <content><![CDATA[<h2 id="CAST-A-Correlation-based-Adaptive-Spectral-Clustering-Algorithm-on-Multi-scale-Data"><a href="#CAST-A-Correlation-based-Adaptive-Spectral-Clustering-Algorithm-on-Multi-scale-Data" class="headerlink" title="CAST: A Correlation-based Adaptive Spectral Clustering Algorithm on Multi-scale Data"></a>CAST: A Correlation-based Adaptive Spectral Clustering Algorithm on Multi-scale Data</h2>]]></content>
       <tags>
         <tag>Spectral Clustering</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Helltaker 通关感想</title>
-    <url>/2020/09/20/helltaker/</url>
-    <content><![CDATA[<p>这两天在网上经常看到Helltaker，又听说免费，嘿嘿嘿，下载之。<br>类似galgame，故事背景大概是主角有一天梦到了自己要在地狱开后宫，结果不知怎么真的来到了地狱，开启你的把妹之旅吧！<br>前七关都是推箱子，后面三关考验你的手速和反应，过关后会有一个恶魔加入你的后宫：每关小姐姐确实很漂亮，可惜对白太少，只能看个乐子。<br>第十关非常难，非常难，非常难，至今没过，这一关总是让我怀疑我的手指头和键盘哪一个先坏掉，后来发现是我的脑袋。<br>最终全部通关后(作者贴心的给了跳关选项)，主角带领妹子们冲出地狱，重返人间，过上了短暂又烧心的生活，这时点开ESC会发现一段方向代码，站在五角星法阵中央照着操作会开启彩蛋。</p>
-]]></content>
-      <categories>
-        <category>游戏</category>
-      </categories>
-      <tags>
-        <tag>steam</tag>
-        <tag>Helltaker</tag>
       </tags>
   </entry>
 </search>
