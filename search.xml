@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>First Blog</title>
+    <url>/2020/09/04/First-Blog/</url>
+    <content><![CDATA[<h1 id="初次使用hexo搭建博客，开心，日后还要再深入"><a href="#初次使用hexo搭建博客，开心，日后还要再深入" class="headerlink" title="初次使用hexo搭建博客，开心，日后还要再深入"></a>初次使用hexo搭建博客，开心，日后还要再深入</h1>]]></content>
+      <tags>
+        <tag>newbie</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>论文精读——Compositional Embeddings Using Complementary Partitions for Memory-Efficient Recommendation Systems</title>
     <url>/2020/09/05/Compositional-embedding/</url>
     <content><![CDATA[<h2 id="Compositional-Embeddings-Using-Complementary-Partitions-for-Memory-Efficient-Recommendation-Systems"><a href="#Compositional-Embeddings-Using-Complementary-Partitions-for-Memory-Efficient-Recommendation-Systems" class="headerlink" title="Compositional Embeddings Using Complementary Partitions for Memory-Efficient Recommendation Systems"></a>Compositional Embeddings Using Complementary Partitions for Memory-Efficient Recommendation Systems</h2>]]></content>
@@ -11,14 +19,6 @@
       <tags>
         <tag>embedding</tag>
         <tag>recommendation system</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>First Blog</title>
-    <url>/2020/09/04/First-Blog/</url>
-    <content><![CDATA[<h1 id="初次使用hexo搭建博客，开心，日后还要再深入"><a href="#初次使用hexo搭建博客，开心，日后还要再深入" class="headerlink" title="初次使用hexo搭建博客，开心，日后还要再深入"></a>初次使用hexo搭建博客，开心，日后还要再深入</h1>]]></content>
-      <tags>
-        <tag>newbie</tag>
       </tags>
   </entry>
   <entry>
@@ -97,19 +97,6 @@
       </tags>
   </entry>
   <entry>
-    <title>event role</title>
-    <url>/2020/09/21/event-role/</url>
-    <content><![CDATA[<h2 id="事件抽取简介及doc-level-论文精读"><a href="#事件抽取简介及doc-level-论文精读" class="headerlink" title="事件抽取简介及doc-level 论文精读"></a>事件抽取简介及doc-level 论文精读</h2>]]></content>
-      <categories>
-        <category>nlp</category>
-        <category>事件抽取</category>
-      </categories>
-      <tags>
-        <tag>event extraction</tag>
-        <tag>crf</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Embedding在推荐系统中的应用</title>
     <url>/2020/09/22/embedding/</url>
     <content><![CDATA[<h1 id="nlp中的embedding：word2vec"><a href="#nlp中的embedding：word2vec" class="headerlink" title="nlp中的embedding：word2vec"></a>nlp中的embedding：word2vec</h1><h1 id="Rs中的embedding-：从Item2vec到阿里的embedding"><a href="#Rs中的embedding-：从Item2vec到阿里的embedding" class="headerlink" title="Rs中的embedding ：从Item2vec到阿里的embedding"></a>Rs中的embedding ：从Item2vec到阿里的embedding</h1>]]></content>
@@ -120,6 +107,19 @@
       <tags>
         <tag>Embedding</tag>
         <tag>Recommendation System</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>event role</title>
+    <url>/2020/09/21/event-role/</url>
+    <content><![CDATA[<h2 id="事件抽取简介及doc-level-论文精读"><a href="#事件抽取简介及doc-level-论文精读" class="headerlink" title="事件抽取简介及doc-level 论文精读"></a>事件抽取简介及doc-level 论文精读</h2>]]></content>
+      <categories>
+        <category>nlp</category>
+        <category>事件抽取</category>
+      </categories>
+      <tags>
+        <tag>event extraction</tag>
+        <tag>crf</tag>
       </tags>
   </entry>
   <entry>
@@ -215,21 +215,6 @@
       </tags>
   </entry>
   <entry>
-    <title>如何杀死nohup 运行的进程</title>
-    <url>/2020/09/09/nohup/</url>
-    <content><![CDATA[<p>在服务器上跑程序的时候为了后台运行，使用了nohup命令</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">nohup python main.py</span><br></pre></td></tr></table></figure>
-<p>当结束进程时，用<code>ps -u</code>查找到了<code>python main.py</code>这个进程的ID，直接kill发现进程没有被杀死。于是 使用<code>ps -ef|grep nohup</code>找到<code>nohup</code>的进程ID， <code>kill -9 ID</code>干掉之后再重新<code>kill</code>刚才的<code>python main.py</code>进程，发现已经被杀死。(偶然发现，仅供参考)</p>
-]]></content>
-      <categories>
-        <category>-linux指令</category>
-      </categories>
-      <tags>
-        <tag>linux</tag>
-        <tag>nohup</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>K-NRM与Conv K-NRM简介</title>
     <url>/2020/12/07/k-nrm/</url>
     <content><![CDATA[<ul>
@@ -311,24 +296,63 @@
       </tags>
   </entry>
   <entry>
-    <title>基于FM的Recommendation</title>
-    <url>/2020/09/05/%E5%9F%BA%E4%BA%8EFM%E7%9A%84Recommendation/</url>
-    <content><![CDATA[<h2 id="FM-Factorization-Machine-分解机-简介"><a href="#FM-Factorization-Machine-分解机-简介" class="headerlink" title="FM(Factorization Machine)分解机 简介"></a>FM(Factorization Machine)分解机 简介</h2><h2 id="与深度学习相结合"><a href="#与深度学习相结合" class="headerlink" title="与深度学习相结合"></a>与深度学习相结合</h2><ul>
-<li>DeepFM</li>
-<li>AutoFM</li>
-<li>GBDT</li>
-</ul>
+    <title>如何杀死nohup 运行的进程</title>
+    <url>/2020/09/09/nohup/</url>
+    <content><![CDATA[<p>在服务器上跑程序的时候为了后台运行，使用了nohup命令</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">nohup python main.py</span><br></pre></td></tr></table></figure>
+<p>当结束进程时，用<code>ps -u</code>查找到了<code>python main.py</code>这个进程的ID，直接kill发现进程没有被杀死。于是 使用<code>ps -ef|grep nohup</code>找到<code>nohup</code>的进程ID， <code>kill -9 ID</code>干掉之后再重新<code>kill</code>刚才的<code>python main.py</code>进程，发现已经被杀死。(偶然发现，仅供参考)</p>
 ]]></content>
+      <categories>
+        <category>-linux指令</category>
+      </categories>
       <tags>
-        <tag>-推荐系统 -FM</tag>
+        <tag>linux</tag>
+        <tag>nohup</tag>
       </tags>
   </entry>
   <entry>
-    <title>论文精读——CAST: A Correlation-based Adaptive Spectral Clustering Algorithm on Multi-scale Data</title>
-    <url>/2020/09/05/%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB%E2%80%94%E2%80%94ST-A-Correlation-based-Adaptive-Spectral-Clustering-Algorithm-on-Multi-scale-Data/</url>
-    <content><![CDATA[<h2 id="CAST-A-Correlation-based-Adaptive-Spectral-Clustering-Algorithm-on-Multi-scale-Data"><a href="#CAST-A-Correlation-based-Adaptive-Spectral-Clustering-Algorithm-on-Multi-scale-Data" class="headerlink" title="CAST: A Correlation-based Adaptive Spectral Clustering Algorithm on Multi-scale Data"></a>CAST: A Correlation-based Adaptive Spectral Clustering Algorithm on Multi-scale Data</h2>]]></content>
+    <title>problems</title>
+    <url>/2021/03/24/problems/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>vscode problems集锦</title>
+    <url>/2021/03/24/vscode-problem%E9%9B%86%E9%94%A6/</url>
+    <content><![CDATA[<p>本文主要介绍个人在vscode的使用过程中遇到的问题以及对应解决方法(不断更新。。。)：</p>
+<ul>
+<li><p>vscode 如何通过remote ssh与server建立连接？</p>
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/68577071">具体教程在此，一步步照做即可</a></li>
+<li>基于上述教程，在登陆server时总会弹出窗口要求输入用户名及密码，如何跳过这一步骤？<ul>
+<li>修改id_rsa.pub的访问权限：<code>chmod 700 id_rsa.pub</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>vscode出现<code>Error: Unable to install extension &#39;ms-toolsai.jupyter&#39; as it is not compatible with VS Code &#39;1.54.3&#39;.</code>,该报错于更新vscode后，向remote server上安装extension(如python)时出现，如何解决？</p>
+<ul>
+<li><a href="https://github.com/microsoft/vscode/issues/119073">github相关issue在此</a><ul>
+<li>方法：1. 删除本地，server的jupyter, python后后重新在本地，server上依序安装jupyter，python，不一定成功         2. 在<a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">vscode extensions</a>上手动下载相关extension的VSIX安装包，上传到服务器后离线安装：在VScode中<code>ctrl+shift+p</code>输入<code>Extensions: install from VSIX</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>vscode无法连接server，提示<code>*Server installation process already in progress* - *waiting and retrying*</code>:</p>
+<ul>
+<li><p><a href="https://stackoverflow.com/questions/56718453/using-remote-ssh-in-vscode-on-a-target-machine-that-only-allows-inbound-ssh-co">重新在server端手动安装或者选择从本地复制到server进行安装</a></p>
+</li>
+<li><p>在vscode命令行中输入<code>Remote ssh: kill vscode server on host</code>再重连即可</p>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>vscode</category>
+      </categories>
       <tags>
-        <tag>Spectral Clustering</tag>
+        <tag>vscode</tag>
+        <tag>remomte ssh</tag>
       </tags>
   </entry>
   <entry>
@@ -346,6 +370,27 @@
       <tags>
         <tag>Stance Detection</tag>
         <tag>NLP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>论文精读——CAST: A Correlation-based Adaptive Spectral Clustering Algorithm on Multi-scale Data</title>
+    <url>/2020/09/05/%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB%E2%80%94%E2%80%94ST-A-Correlation-based-Adaptive-Spectral-Clustering-Algorithm-on-Multi-scale-Data/</url>
+    <content><![CDATA[<h2 id="CAST-A-Correlation-based-Adaptive-Spectral-Clustering-Algorithm-on-Multi-scale-Data"><a href="#CAST-A-Correlation-based-Adaptive-Spectral-Clustering-Algorithm-on-Multi-scale-Data" class="headerlink" title="CAST: A Correlation-based Adaptive Spectral Clustering Algorithm on Multi-scale Data"></a>CAST: A Correlation-based Adaptive Spectral Clustering Algorithm on Multi-scale Data</h2>]]></content>
+      <tags>
+        <tag>Spectral Clustering</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>基于FM的Recommendation</title>
+    <url>/2020/09/05/%E5%9F%BA%E4%BA%8EFM%E7%9A%84Recommendation/</url>
+    <content><![CDATA[<h2 id="FM-Factorization-Machine-分解机-简介"><a href="#FM-Factorization-Machine-分解机-简介" class="headerlink" title="FM(Factorization Machine)分解机 简介"></a>FM(Factorization Machine)分解机 简介</h2><h2 id="与深度学习相结合"><a href="#与深度学习相结合" class="headerlink" title="与深度学习相结合"></a>与深度学习相结合</h2><ul>
+<li>DeepFM</li>
+<li>AutoFM</li>
+<li>GBDT</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>-推荐系统 -FM</tag>
       </tags>
   </entry>
 </search>
